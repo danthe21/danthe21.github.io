@@ -1,6 +1,6 @@
-site_name: MkLorum
+site_name: TestMkDocs
 nav:
     - Home: index.md
     - About: about.md
     - Contact: contact.md
-theme: readthedocs
+theme: material
