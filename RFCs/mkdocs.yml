@@ -1,11 +1,22 @@
 site_name: eBGF RFCs
 nav:
     - Home: index.md
-    - Institutional: 1-inst.md
-        - 1-inst\RFC-1001.md
-    - Economics: 2-eco.md
-    - Legal: 3-legal.md
-    - Technical: 4-tech.md
+    - Institutional: 
+        - Institutional introduction: 1-inst.md
+        - RFC-1001: RFC-1001.md
+        - RFC-1002: RFC-1002.md
+    - Economics: 
+        - Economics introduction: 2-eco.md
+        - RFC-2001: RFC-2001.md
+        - RFC-2002: RFC-2002.md
+    - Legal: 
+        - Legal introduction: 3-legal.md
+        - RFC-3001: RFC-3001.md
+        - RFC-3002: RFC-3002.md
+    - Technical: 
+        - Technical introduction: 4-tech.md
+        - RFC-4001: RFC-4001.md
+        - RFC-4002: RFC-4002.md
 theme:
   name: material
   features:
