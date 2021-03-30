@@ -6,4 +6,7 @@ nav:
     - Economics: 2-eco.md
     - Legal: 3-legal.md
     - Technical: 4-tech.md
-theme: material
+theme:
+  name: material
+  features:
+    - navigation.tabs
