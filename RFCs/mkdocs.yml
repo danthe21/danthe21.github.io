@@ -2,6 +2,7 @@ site_name: eBGF RFCs
 nav:
     - Home: index.md
     - Institutional: 1-inst.md
+        - 1-inst\RFC-1001.md
     - Economics: 2-eco.md
     - Legal: 3-legal.md
     - Technical: 4-tech.md
