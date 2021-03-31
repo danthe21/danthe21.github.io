@@ -27,3 +27,5 @@ nav:
     - Imprint: imprint.md
 theme:
   name: material
+  features:
+    - navigation.tabs
