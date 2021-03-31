@@ -26,8 +26,8 @@ nav:
 theme:
   name: material
   custom_dir: overrides
-  logo: overrides/assets/images/EBGF-logo-transparent-white.png
-  favicon: overrides/assets/images/EBGF-min.jpg
+  logo: overrides/assets/images/favicon.png
+  favicon: overrides/assets/images/favicon.png
   font: false
   features:
     - navigation.tabs
