@@ -1,11 +1,6 @@
-site_name: eBGF
+site_name: eBGF - eco Blockchain Governance Framework
 nav:
     - Home: index.md
-    - Contact:
-        - FAQ: faq.md
-        - Contribution: contribute.md
-        - Presskit: press.md
-    - Glossar: glossar.md
     - RFCs:
         - Institutional: 
             - Institutional introduction: RFC/1-inst.md
@@ -23,9 +18,30 @@ nav:
             - Technical introduction: RFC/4-tech.md
             - RFC-4001: RFC/4-tech/RFC-4001.md
             - RFC-4002: RFC/4-tech/RFC-4002.md
+    - Glossar: glossar.md
+    - Contact:
+        - FAQ: faq.md
+        - Contribution: contribute.md
+        - Presskit: press.md
     - Privacy: privacy.md
     - Imprint: imprint.md
 theme:
   name: material
+  logo: overrides/.icons/EBGF-logo-transparent-white.png
+  favicon: overrides/.icons/EBGF-min.jpg
+  font: false
   features:
     - navigation.tabs
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/internet-sicherheit/eBGF
+      name: eBGF on GitHub
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+copyright: Site created by the Institute for Internet-Security - if(is). Imprint https://www.internet-sicherheit.de/impressum.html, Privacy https://www.internet-sicherheit.de/datenschutz.html
