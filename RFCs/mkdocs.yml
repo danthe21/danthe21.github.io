@@ -19,6 +19,7 @@ nav:
             - RFC-4001: RFC/4-tech/RFC-4001.md
             - RFC-4002: RFC/4-tech/RFC-4002.md
     - Glossar: glossar.md
+    - Literature: lit.md
     - Contact:
         - FAQ: faq.md
         - Contribution: contribute.md
